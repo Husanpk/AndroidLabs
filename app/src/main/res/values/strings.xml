@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name" translatable="false">Android Lab1</string>
-    <string name="hello_message"  translatable="false">Hello World!</string>
-    <string name="ButtonText" translatable="false">I\'m a Button</string>
+    <string name="app_name" translatable="false">Android 1</string>
+    <string name ="textbox" translatable="false"> Look at my GUI</string>
+    <string name ="button" translatable="false"> Click Here</string>
+    <string name ="checkbox" translatable="false"> Check this out!</string>
+    <string name ="sw" translatable="false"> Switch on/off</string>
+    <string name ="EditText" translatable="false"> Type here</string>
+    <string name ="toast_message" translatable="false"> Here is more information</string>
+    <string name ="snackbar_message" translatable="false"> "The switch is now followed by On"</string>
+    <string name ="snackbar_button" translatable="false"> "Undo"</string>
 </resources>

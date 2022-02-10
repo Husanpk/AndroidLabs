@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Android Lab1</string>
-    <string name="hello_message">sat_sri_akal_duniya</string>
-    <string name="ButtonText">main button haan</string>
+    <string name ="textbox" > ਮੇਰੇ GUI ਵੱਲ ਦੇਖੋ</string>
+    <string name ="button" > ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
+    <string name ="checkbox" > ਇਸਦੀ ਜਾਂਚ ਕਰੋ!</string>
+    <string name ="sw" > ਸਵਿੱਚ ਚਾਲੂ/ਬੰਦ ਕਰੋ</string>
+    <string name ="EditText" > ਇੱਥੇ ਟਾਈਪ ਕਰੋ</string>
+    <string name ="toast_message" > ਇੱਥੇ ਹੋਰ ਜਾਣਕਾਰੀ ਹੈ</string>
+    <string name ="snackbar_message" > ਸਵਿੱਚ ਦੇ ਬਾਅਦ ਹੁਣ ਚਾਲੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ</string>
+    <string name ="snackbar_button" > ਵਾਪਿਸ</string>
 </resources>
