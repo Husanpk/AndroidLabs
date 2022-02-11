@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="@string/textbox"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="42dp"
+        android:text="@string/button" />
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="33dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="@string/button" />
+
+    <ImageButton
+        android:id="@+id/image1"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/flag" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="101dp"
+        android:layout_toRightOf="@+id/image1"
+        android:text="@string/sw" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:layout_marginTop="112dp"
+        android:hint="@string/EditText" />
+
+
+</RelativeLayout>
