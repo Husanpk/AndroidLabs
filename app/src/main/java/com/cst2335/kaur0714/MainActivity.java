@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_linear);
     }
     public void display_Toast(View v){
-
         Toast.makeText(MainActivity.this,getString(R.string.toast_message)  , Toast.LENGTH_SHORT).show();
     }
 
